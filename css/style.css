@@ -1,0 +1,145 @@
+    @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600&display=swap');
+     :root {
+        --bg-white-900: #f2f2fC;
+        --bg-white-100: #fdf9ff;
+        --bg-white-50: #e8dfec;
+        --text-black-900: #302e4d;
+        --text-black-700: #302e4d;
+    }
+    
+    body.dark {
+        --bg-white-900: #151515;
+        --bg-white-100: #222222;
+        --bg-white-50: #393939;
+        --text-black-900: #ffffff;
+        --text-black-700: #e9e9e9;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        outline: none;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+    
+    body {
+        line-height: 1.5em;
+        font-size: 16px;
+        text-decoration: none;
+        outline: none;
+        background-color: #222222;
+        overflow: hidden;
+    }
+    
+     ::before,
+     ::after {
+        box-sizing: border-box;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    .main-content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contain {
+        display: block;
+        text-align: center;
+    }
+    
+    header {
+        margin-top: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .top_board {
+        display: flex;
+        text-align: center;
+        gap: 2px;
+    }
+    
+    .system_body {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    
+    .container {
+        flex: 0 0 100%;
+        max-width: 0 0 100%;
+        /* white-space: nowrap; */
+    }
+    
+    .software_coin_img {
+        flex: 0 0 100%;
+        max-width: 0 0 100%;
+    }
+    
+    .top_board img {
+        width: 30px;
+    }
+    
+    .software_coin_img {
+        width: 100%;
+        display: block;
+    }
+    
+    .software_coin_img img {
+        width: 130px;
+    }
+    
+    .coin_sensitive {
+        width: 130px;
+        margin-top: 20px;
+        background-color: #ffff;
+        text-align: center;
+        transform: translateX(81%);
+        padding-left: 5px;
+        border-radius: 10px;
+    }
+    
+    .coin_sensitived img {
+        width: 15px;
+        border-radius: 50px;
+    }
+    
+    .coin_sensitived {
+        width: 100px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+    }
+    
+    .coin_sensitived h4 {
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    
+    .number {
+        font-size: 12px;
+    }
+    
+    .coins_trade {
+        /* width: 100%; */
+        display: block;
+    }
+    
+    .coins_trade h2 {
+        width: 250px;
+        color: var(--bg-white-50);
+        margin: 15px auto;
+    }
+    
+    .coins_trade p {
+        width: 340px;
+        color: var(--bg-white-50);
+    }
